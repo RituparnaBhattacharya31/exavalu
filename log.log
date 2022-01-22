@@ -1,0 +1,4 @@
+2022-01-22 13:49:11 INFO  Admin:313 - This is infoparameter/exception object
+2022-01-22 13:49:11 WARN  Admin:314 - This is warnparameter/exception object
+2022-01-22 13:49:11 ERROR Admin:315 - This is errorparameter/exception object
+2022-01-22 13:49:11 FATAL Admin:316 - This is fatalparameter/exception object

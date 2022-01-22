@@ -1,0 +1,33 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name="registeruser" class="struts2.test.actions.UserAction" method="addUsers">
+            <result name="REGISTER">/register.jsp</result>
+        </action>
+       <action name="addProduct" class="struts2.test.actions.ProductAction" method="addProducts">
+            <result name="ADDPRODUCT">/addproduct.jsp</result>
+        </action>
+        <action name="report" class="struts2.test.actions.UserAction" method="showUsers">
+            <result name="REPORT">/report.jsp</result>
+        </action>
+        <action name="reportproduct" class="struts2.test.actions.ProductAction" method="showProducts">
+            <result name="REPORTPRODUCT">/reportproduct.jsp</result>
+        </action>
+        <action name="updatedetails" class="struts2.test.actions.UserAction" method="updateUsers">
+            <result name="UPDATE">/update.jsp</result>
+        </action>
+        <action name="updateproductdetails" class="struts2.test.actions.ProductAction" method="updateProducts">
+            <result name="UPDATEPRODUCT">/updateproduct.jsp</result>
+        </action>
+        <action name="deleterecord" class="struts2.test.actions.UserAction" method="deleteUsers">
+            <result name="DELETE">/delete.jsp</result>
+        </action> 
+         <action name="deleteproductrecord" class="struts2.test.actions.ProductAction" method="deleteProducts">
+            <result name="DELETEPRODUCT">/deleteproduct.jsp</result>
+        </action>      
+    </package>
+</struts>
